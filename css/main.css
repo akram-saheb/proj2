@@ -1,0 +1,56 @@
+
+body {
+   
+    height: 90vh;
+    margin: 0;
+    background: url(../img/6.jpg);
+    
+}
+section:hover {
+    background-color: red;
+    color: #ffffff;
+}
+
+section {
+    
+    margin-top: 25vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    border: 2PX solid black;
+    
+    padding:10vh;
+}
+
+header {
+    margin-bottom: 25vh;
+    padding: 10vh;
+    justify-content: center;
+    background-color: #cccccc;
+}
+
+footer {
+    margin-top: 20vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10vh;
+    padding: 0;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+ a {
+     text-decoration: none;
+     color:black;
+ }
+
+a:hover {
+    color: #ffffff;
+}
+

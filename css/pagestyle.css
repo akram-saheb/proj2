@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(4 , 1fr);
+
+    grid-template-areas:
+    "big1 big1 small1 small2"
+    "big1 big1 small3 small4"
+    "small5 small6 big2 big2"
+    "small7 small8 big2 big2";
+    grid-gap: 3px;
+    background-color: #251f1f;
+    border: 3px solid #251f1f;
+
+    transition: ease-in-out;
+}
+
+
+
+body > div:hover {
+    
+    opacity: 0.7;
+    transform: scale(0.98);
+}
+
+div:nth-of-type(1){
+    
+    grid-area: big1;
+    background: url(../img/16.jpg);
+    
+}
+div:nth-of-type(2){
+    grid-area: small1;
+    background: url(../img/14.jpg);
+}
+div:nth-of-type(3){
+    grid-area: small2;
+    background: url(../img/13.jpg);
+}
+div:nth-of-type(4){
+    grid-area: small3;
+    background: url(../img/15.jpg);
+}
+div:nth-of-type(5){
+    grid-area: small4;
+    background: url(../img/17.jpg);
+}
+div:nth-of-type(6){
+    grid-area: small5;
+    background: url(../img/10.jpg);
+}
+div:nth-of-type(7){
+    grid-area: small6;
+    background: url(../img/18.jpg);
+}
+div:nth-of-type(8){
+    grid-area: small7;
+    background: url(../img/20.jpg);
+}
+div:nth-of-type(9){
+    grid-area: small8;
+    background: url(../img/19.jpg);
+}
+div:nth-of-type(10){
+    grid-area: big2;
+    background: url(../img/3.jpg);
+
+}
+ a{
+   color:navy;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+
+
+
